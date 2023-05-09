@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom'
 function Navbar() {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg bg-body-tertiary shadow">
+            <nav className="navbar navbar-expand-lg bg-body-tertiary shadow" bg="dark">
                 <div className="container-fluid">
                     <Link to="#" className="navbar-brand pe-5 font-monospace">Interstellar</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,41 +26,41 @@ function Navbar() {
                                 </Link>
                                 <ul className="dropdown-menu ">
                                     <li><Link to="#" className="dropdown-item" >By Locations <AiFillCaretRight className='hide' /></Link>
-                                        <ul class="dropdown-menu dropdown-submenu">
+                                        <ul className="dropdown-menu dropdown-submenu">
                                             <li>
-                                                <Link to="#" class="dropdown-item" >Submenu item 1</Link>
+                                                <Link to="#" className="dropdown-item" >Submenu item 1</Link>
                                             </li>
                                             <li>
-                                                <Link to="#" class="dropdown-item" >Submenu item 2</Link>
+                                                <Link to="#" className="dropdown-item" >Submenu item 2</Link>
                                             </li>
                                             <li>
-                                                <Link to="#" class="dropdown-item" >Submenu item 2</Link>
+                                                <Link to="#" className="dropdown-item" >Submenu item 2</Link>
                                             </li>
                                         </ul>
                                     </li>
                                     <li><Link to="#" className="dropdown-item" >By Positions <AiFillCaretRight className='hide' /></Link>
-                                        <ul class="dropdown-menu dropdown-submenu">
+                                        <ul className="dropdown-menu dropdown-submenu">
                                             <li>
-                                                <Link to="#" class="dropdown-item" >Submenu item 4</Link>
+                                                <Link to="#" className="dropdown-item" >Submenu item 4</Link>
                                             </li>
                                             <li>
-                                                <Link to="#" class="dropdown-item" >Submenu item 2</Link>
+                                                <Link to="#" className="dropdown-item" >Submenu item 2</Link>
                                             </li>
                                             <li>
-                                                <Link to="#" class="dropdown-item" >Submenu item 2</Link>
+                                                <Link to="#" className="dropdown-item" >Submenu item 2</Link>
                                             </li>
                                         </ul>
                                     </li>
                                     <li><Link to="#" className="dropdown-item" >By Categories <AiFillCaretRight className='hide' /></Link>
-                                        <ul class="dropdown-menu dropdown-submenu">
+                                        <ul className="dropdown-menu dropdown-submenu">
                                             <li>
-                                                <Link to="#" class="dropdown-item" >Submenu item 7</Link>
+                                                <Link to="#" className="dropdown-item" >Submenu item 7</Link>
                                             </li>
                                             <li>
-                                                <Link to="#" class="dropdown-item" >Submenu item 2</Link>
+                                                <Link to="#" className="dropdown-item" >Submenu item 2</Link>
                                             </li>
                                             <li>
-                                                <Link to="#" class="dropdown-item" >Submenu item 2</Link>
+                                                <Link to="#" className="dropdown-item" >Submenu item 2</Link>
                                             </li>
                                         </ul>
                                     </li>
